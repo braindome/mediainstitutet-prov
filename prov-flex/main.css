@@ -1,0 +1,49 @@
+html {
+    width: 100vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    width: 95vw;
+    background-color: antiquewhite;
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: brown;
+    height: 10vh;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    width: 95vw;
+    height: 80vh;
+    background-color: antiquewhite;
+}
+
+.center {
+    padding: 20px;
+    border-radius: 10px;
+    margin: 1%;
+    width: 50%;
+    background-color: greenyellow;
+}
+
+.side {
+    padding: 20px;
+    border-radius: 10px;
+    margin: 1%;
+    width: 25%;
+    background-color: green;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: brown;
+    height: 6vh;
+}
