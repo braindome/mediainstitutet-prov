@@ -1,0 +1,57 @@
+body {background-color: black;}
+
+#banner {
+    background-image: url(/prov-bootstrap/img/DantesInfernoBanner.jpg);
+    height: 25vh;
+    color:whitesmoke;
+    border-style: solid;
+    border-color: black;
+    margin-bottom: 1vh;
+}
+
+#leftcolumn {background-color: brown; color: whitesmoke;}
+#centerleftcolumn {background-color: grey; color: black;}
+#centerrightcolumn {background-color: whitesmoke; color: black}
+#rightcolumn {background-color: brown; color: whitesmoke;}
+
+
+.container {
+ 
+    margin: auto;
+    background-color: brown;
+    border-radius: 20px;
+    max-width: 100%;
+}
+
+.row {
+    background-color: black;
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+    max-width: 100%;
+    
+}
+
+.col-md {
+    margin: 10px;
+    background-color: blueviolet;
+    border-radius: 20px;
+    border-color: black;
+    border-style: solid;
+    max-width: 100%;
+}
+
+.col-md-4 {
+    margin: 10px;
+    background-color: darkorange;
+    border-radius: 20px;
+    border-color: black;
+    border-style: solid;
+    max-width: 100%;
+}
+
+
+h2 p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+

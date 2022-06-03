@@ -4,11 +4,19 @@ html {
 }
 
 body {
-    width: 95vw;
-    background-color: antiquewhite;
+    width: 100%;
+    background-color: #8d9a9b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 header {
+    background-image: url(/prov-flex/img/bell.jpeg);
+    max-width: max-content;
+    max-height: max-content;
+    color: whitesmoke;
+    text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
     padding: 20px;
     text-align: center;
     border-radius: 10px;
@@ -19,9 +27,8 @@ header {
 main {
     display: flex;
     flex-direction: row;
-    width: 95vw;
-    height: 80vh;
-    background-color: antiquewhite;
+    width: 100%;
+    background-color: #8d9a9b;
 }
 
 .center {
@@ -29,7 +36,8 @@ main {
     border-radius: 10px;
     margin: 1%;
     width: 50%;
-    background-color: greenyellow;
+    min-height: 60vh;
+    background-color: #8baaa7;
 }
 
 .side {
@@ -37,13 +45,22 @@ main {
     border-radius: 10px;
     margin: 1%;
     width: 25%;
-    background-color: green;
+    min-height: 60vh;
+    background-color: #cccccc;
+}
+@media (max-width: 36em) {
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+    .center {flex-wrap: wrap; width: 100%;}
+    .side {flex-wrap: wrap; width: 100%;}
 }
 
 footer {
     padding: 20px;
     text-align: center;
     border-radius: 10px;
-    background-color: brown;
-    height: 6vh;
+    height: 10vh;
+
 }
